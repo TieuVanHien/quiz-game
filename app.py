@@ -4,10 +4,17 @@ import json
 # API endpoint
 url = "https://quizapi.io/api/v1/questions"
 
+
+ques_limit = int(input("Please enter your desired numbers of question: "))
+user_tag = input("Enter your desired technologies: ")
+dif = input("Please enter your desired difficulty: ")
+
 # API parameters
 params = {
     "apiKey": "aPDvB6Yp4dqaASO4AKHyvyIcGrrQ0KOrPB1v9KRB",
-    "limit": 10,
+    "tags": user_tag,
+    "limit": ques_limit,
+    "difficulty": dif
 }
 
 # Request headers

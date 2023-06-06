@@ -1,13 +1,13 @@
 [
     {
-        "id": 513,
-        "question": "Outlook Express is a _________",
+        "id": 550,
+        "question": "Which sign is used to access a variable of  a variable in PHP?",
         "description": null,
         "answers": {
-            "answer_a": "E-Mail Client",
-            "answer_b": "Browser",
-            "answer_c": "SearchEngine",
-            "answer_d": "None of the above",
+            "answer_a": "$$",
+            "answer_b": "$|",
+            "answer_c": "#@",
+            "answer_d": "$",
             "answer_e": null,
             "answer_f": null
         },
@@ -25,147 +25,19 @@
         "tip": null,
         "tags": [
             {
-                "name": "HTML"
-            }
-        ],
-        "category": "Code",
-        "difficulty": "Easy"
-    },
-    {
-        "id": 692,
-        "question": "Which service runs on each Kubernetes node and ensures containers are running in a pod?",
-        "description": null,
-        "answers": {
-            "answer_a": "etcd",
-            "answer_b": "kubelet",
-            "answer_c": "scheduler",
-            "answer_d": "kubeadm",
-            "answer_e": null,
-            "answer_f": null
-        },
-        "multiple_correct_answers": "false",
-        "correct_answers": {
-            "answer_a_correct": "false",
-            "answer_b_correct": "true",
-            "answer_c_correct": "false",
-            "answer_d_correct": "false",
-            "answer_e_correct": "false",
-            "answer_f_correct": "false"
-        },
-        "correct_answer": "answer_a",
-        "explanation": "The kubelet is the primary \u201cnode agent\u201d that runs on each node. It can register the node with the apiserver using one of: the hostname; a flag to override the hostname; or specific logic for a cloud provider.",
-        "tip": null,
-        "tags": [
-            {
-                "name": "Kubernetes"
-            }
-        ],
-        "category": "Linux",
-        "difficulty": "Easy"
-    },
-    {
-        "id": 214,
-        "question": "What does the WHERE SQL operator does:",
-        "description": null,
-        "answers": {
-            "answer_a": "restricts the set of rows to the selection of those records for which the condition is true",
-            "answer_b": "converts the value of a column or function to a different type",
-            "answer_c": "changes the order of output rows",
-            "answer_d": "eliminates all row repeats from the result set",
-            "answer_e": null,
-            "answer_f": null
-        },
-        "multiple_correct_answers": "false",
-        "correct_answers": {
-            "answer_a_correct": "true",
-            "answer_b_correct": "false",
-            "answer_c_correct": "false",
-            "answer_d_correct": "false",
-            "answer_e_correct": "false",
-            "answer_f_correct": "false"
-        },
-        "correct_answer": "answer_a",
-        "explanation": null,
-        "tip": null,
-        "tags": [
-            {
-                "name": "MySQL"
-            }
-        ],
-        "category": "SQL",
-        "difficulty": "Easy"
-    },
-    {
-        "id": 940,
-        "question": "What are the API versions available?",
-        "description": null,
-        "answers": {
-            "answer_a": "Alpha level, Beta level and Stable level. All these version features are in multiple standards.",
-            "answer_b": "Pod level, Stage level and Sigma level. All these version features are in multiple standards.",
-            "answer_c": "Single level, High level and Multi level. All these version features are in multiple standards.",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
-        },
-        "multiple_correct_answers": "false",
-        "correct_answers": {
-            "answer_a_correct": "true",
-            "answer_b_correct": "false",
-            "answer_c_correct": "false",
-            "answer_d_correct": "false",
-            "answer_e_correct": "false",
-            "answer_f_correct": "false"
-        },
-        "correct_answer": null,
-        "explanation": null,
-        "tip": null,
-        "tags": [
-            {
-                "name": "Kubernetes"
-            }
-        ],
-        "category": "Docker",
-        "difficulty": "Medium"
-    },
-    {
-        "id": 482,
-        "question": "How can you create an E-mail link?",
-        "description": null,
-        "answers": {
-            "answer_a": "<a Href=\"a@b\">",
-            "answer_b": "<mail Href=\"a@b\">",
-            "answer_c": "<a Href=\"mailto:a@b.com\">",
-            "answer_d": "<mail>a@b</mail>",
-            "answer_e": null,
-            "answer_f": null
-        },
-        "multiple_correct_answers": "false",
-        "correct_answers": {
-            "answer_a_correct": "false",
-            "answer_b_correct": "false",
-            "answer_c_correct": "true",
-            "answer_d_correct": "false",
-            "answer_e_correct": "false",
-            "answer_f_correct": "false"
-        },
-        "correct_answer": "answer_a",
-        "explanation": null,
-        "tip": null,
-        "tags": [
-            {
-                "name": "HTML"
+                "name": "PHP"
             }
         ],
         "category": "Code",
         "difficulty": "Medium"
     },
     {
-        "id": 541,
-        "question": "What is the use of Scalable Vector Graphics (SVG) in HTML5?",
+        "id": 588,
+        "question": "What is the difference between characters \\034 and \\x34?",
         "description": null,
         "answers": {
-            "answer_a": "Scalable Vector Graphics (SVG) is the part of the vector-based family of graphics. There are various forms of Raster-based graphics available that stores the color definition for each pixel in an array of data.",
-            "answer_b": "Scalable Vector Graphics (SVG) is the part of the colored-based family of graphics. There are various forms of Raster-based graphics available that stores the design definition for each pixel in an array of data.",
+            "answer_a": "\\034 is octal 34 and \\x34 is hex 34.",
+            "answer_b": "\\034 is hex 34 and \\x34 is octal 34.",
             "answer_c": null,
             "answer_d": null,
             "answer_e": null,
@@ -185,21 +57,21 @@
         "tip": null,
         "tags": [
             {
-                "name": "HTML"
+                "name": "PHP"
             }
         ],
         "category": "Code",
-        "difficulty": "Hard"
+        "difficulty": "Medium"
     },
     {
-        "id": 1054,
-        "question": "Which command would you use to gather facts with Ansible?",
+        "id": 598,
+        "question": "How can we initiate a session in PHP?",
         "description": null,
         "answers": {
-            "answer_a": "ansible your_server -m gather",
-            "answer_b": "ansible your_server -m setup",
-            "answer_c": "ansible your_server -m info",
-            "answer_d": "ansible your_server -m fact",
+            "answer_a": "$_session_start()",
+            "answer_b": "session_start()",
+            "answer_c": "$session_start()",
+            "answer_d": null,
             "answer_e": null,
             "answer_f": null
         },
@@ -217,30 +89,30 @@
         "tip": null,
         "tags": [
             {
-                "name": "DevOps"
+                "name": "PHP"
             }
         ],
-        "category": "DevOps",
-        "difficulty": "Easy"
+        "category": "Code",
+        "difficulty": "Medium"
     },
     {
-        "id": 837,
-        "question": "Docker Toolbox is an installer for quick setup and launch of a Docker environment on Mac and Windows systems. Select all of the Docker tools that come with the Docket Toolbox",
+        "id": 568,
+        "question": "Which of the following function returns a text in title case from a variable?",
         "description": null,
         "answers": {
-            "answer_a": "Docker Machine for running docker-machine commands",
-            "answer_b": "Oracle VirtualBox",
-            "answer_c": "A shell pre-configured for a Docker command-line environment",
-            "answer_d": "Docker Compose for running the docker-compose commands",
-            "answer_e": "A shell post-configured for a Docker command-line environment",
-            "answer_f": "Oracle RealBox Containers"
+            "answer_a": "ucwords($var)",
+            "answer_b": ".ucword($var)",
+            "answer_c": "toupper($var)",
+            "answer_d": ".upper($var)",
+            "answer_e": null,
+            "answer_f": null
         },
-        "multiple_correct_answers": "true",
+        "multiple_correct_answers": "false",
         "correct_answers": {
             "answer_a_correct": "true",
-            "answer_b_correct": "true",
-            "answer_c_correct": "true",
-            "answer_d_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
             "answer_e_correct": "false",
             "answer_f_correct": "false"
         },
@@ -249,23 +121,119 @@
         "tip": null,
         "tags": [
             {
-                "name": "Docker"
+                "name": "PHP"
             }
         ],
-        "category": "Docker",
-        "difficulty": "Hard"
+        "category": "Code",
+        "difficulty": "Medium"
     },
     {
-        "id": 787,
-        "question": "How can we start a PHP session:",
+        "id": 766,
+        "question": "Which of the following method of Exception class returns formated string of trace?",
         "description": null,
         "answers": {
-            "answer_a": "session_start()",
-            "answer_b": "start_session()",
-            "answer_c": "session()",
-            "answer_d": "startS()",
-            "answer_e": "sessionStart()",
-            "answer_f": "startSession()"
+            "answer_a": "getMessage()",
+            "answer_b": "getCode()",
+            "answer_c": "getTrace()",
+            "answer_d": "getTraceAsString()",
+            "answer_e": "getString()",
+            "answer_f": "getTraceString()"
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "getTraceAsString() method of Exception class returns formated string of trace.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 769,
+        "question": "Which of the following function sorts an array in reverse order?",
+        "description": null,
+        "answers": {
+            "answer_a": "rsort()",
+            "answer_b": "sort()",
+            "answer_c": "shuffle()",
+            "answer_d": "reset()",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "rsort() \u2212 Sorts an array in reverse order.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 573,
+        "question": "Which of the following is not true?",
+        "description": null,
+        "answers": {
+            "answer_a": "PHP can be used to develop web applications.",
+            "answer_b": "PHP can not be embedded into html.",
+            "answer_c": "PHP applications can not be compiled",
+            "answer_d": "PHP makes a website dynamic",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 782,
+        "question": "What does the include() function does?",
+        "description": null,
+        "answers": {
+            "answer_a": "The include() function takes all the text in a specified file and copies it into the file that uses the include function",
+            "answer_b": "The include() function takes the included file and makes sure it's executed before the file the function is used into",
+            "answer_c": "The include() function takes specified strings and includes them into another string. This is used when we want to concatenate different strings.",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
         },
         "multiple_correct_answers": "false",
         "correct_answers": {
@@ -288,35 +256,67 @@
         "difficulty": "Medium"
     },
     {
-        "id": 772,
-        "question": "Which of the following method acts as a destructor function in a PHP class?",
+        "id": 634,
+        "question": "How is the comparison of objects done in PHP?",
         "description": null,
         "answers": {
-            "answer_a": "class_name()",
-            "answer_b": "__destruct",
-            "answer_c": "destructor",
-            "answer_d": "destructor()",
+            "answer_a": "We use the operator '===' to test two objects are instanced from the same class and have same attributes and equal values.",
+            "answer_b": "We use the operator '=' to test two objects are instanced from the same class and have same attributes and equal values.",
+            "answer_c": "We use the operator '==' to test two objects are instanced from the same class and have same attributes and equal values.",
+            "answer_d": null,
             "answer_e": null,
             "answer_f": null
         },
         "multiple_correct_answers": "false",
         "correct_answers": {
             "answer_a_correct": "false",
-            "answer_b_correct": "true",
-            "answer_c_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
             "answer_d_correct": "false",
             "answer_e_correct": "false",
             "answer_f_correct": "false"
         },
-        "correct_answer": null,
-        "explanation": "Like a constructor function you can define a destructor function using function __destruct(). You can release all the resourceses with-in a destructor.",
+        "correct_answer": "answer_a",
+        "explanation": null,
         "tip": null,
         "tags": [
             {
                 "name": "PHP"
             }
         ],
-        "category": "Linux",
+        "category": "Code",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 104,
+        "question": "Are strstr and strchr aliases?",
+        "description": null,
+        "answers": {
+            "answer_a": "True",
+            "answer_b": "False",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "",
         "difficulty": "Medium"
     }
 ]
