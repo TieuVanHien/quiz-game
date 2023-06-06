@@ -1,4 +1,5 @@
 import requests
+import json
 
 # API endpoint
 url = "https://quizapi.io/api/v1/questions"
@@ -7,8 +8,6 @@ url = "https://quizapi.io/api/v1/questions"
 params = {
     "apiKey": "aPDvB6Yp4dqaASO4AKHyvyIcGrrQ0KOrPB1v9KRB",
     "limit": 10,
-    "category": "Linux",
-    "difficulty": "easy"
 }
 
 # Request headers
@@ -23,6 +22,8 @@ response = requests.get(url, params=params, headers=headers)
 if response.status_code == 200:
     # Get the response data
     data = response.json()
+    with open("quiz.json", "w") as file:
+        file.write(json.dumps(data))
 else:
     # Request was not successful
     print("Error:", response.status_code)

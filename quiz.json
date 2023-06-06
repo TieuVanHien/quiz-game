@@ -1,0 +1,322 @@
+[
+    {
+        "id": 513,
+        "question": "Outlook Express is a _________",
+        "description": null,
+        "answers": {
+            "answer_a": "E-Mail Client",
+            "answer_b": "Browser",
+            "answer_c": "SearchEngine",
+            "answer_d": "None of the above",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 692,
+        "question": "Which service runs on each Kubernetes node and ensures containers are running in a pod?",
+        "description": null,
+        "answers": {
+            "answer_a": "etcd",
+            "answer_b": "kubelet",
+            "answer_c": "scheduler",
+            "answer_d": "kubeadm",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": "The kubelet is the primary \u201cnode agent\u201d that runs on each node. It can register the node with the apiserver using one of: the hostname; a flag to override the hostname; or specific logic for a cloud provider.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 214,
+        "question": "What does the WHERE SQL operator does:",
+        "description": null,
+        "answers": {
+            "answer_a": "restricts the set of rows to the selection of those records for which the condition is true",
+            "answer_b": "converts the value of a column or function to a different type",
+            "answer_c": "changes the order of output rows",
+            "answer_d": "eliminates all row repeats from the result set",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "MySQL"
+            }
+        ],
+        "category": "SQL",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 940,
+        "question": "What are the API versions available?",
+        "description": null,
+        "answers": {
+            "answer_a": "Alpha level, Beta level and Stable level. All these version features are in multiple standards.",
+            "answer_b": "Pod level, Stage level and Sigma level. All these version features are in multiple standards.",
+            "answer_c": "Single level, High level and Multi level. All these version features are in multiple standards.",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Kubernetes"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 482,
+        "question": "How can you create an E-mail link?",
+        "description": null,
+        "answers": {
+            "answer_a": "<a Href=\"a@b\">",
+            "answer_b": "<mail Href=\"a@b\">",
+            "answer_c": "<a Href=\"mailto:a@b.com\">",
+            "answer_d": "<mail>a@b</mail>",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "true",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 541,
+        "question": "What is the use of Scalable Vector Graphics (SVG) in HTML5?",
+        "description": null,
+        "answers": {
+            "answer_a": "Scalable Vector Graphics (SVG) is the part of the vector-based family of graphics. There are various forms of Raster-based graphics available that stores the color definition for each pixel in an array of data.",
+            "answer_b": "Scalable Vector Graphics (SVG) is the part of the colored-based family of graphics. There are various forms of Raster-based graphics available that stores the design definition for each pixel in an array of data.",
+            "answer_c": null,
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "HTML"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 1054,
+        "question": "Which command would you use to gather facts with Ansible?",
+        "description": null,
+        "answers": {
+            "answer_a": "ansible your_server -m gather",
+            "answer_b": "ansible your_server -m setup",
+            "answer_c": "ansible your_server -m info",
+            "answer_d": "ansible your_server -m fact",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "DevOps"
+            }
+        ],
+        "category": "DevOps",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 837,
+        "question": "Docker Toolbox is an installer for quick setup and launch of a Docker environment on Mac and Windows systems. Select all of the Docker tools that come with the Docket Toolbox",
+        "description": null,
+        "answers": {
+            "answer_a": "Docker Machine for running docker-machine commands",
+            "answer_b": "Oracle VirtualBox",
+            "answer_c": "A shell pre-configured for a Docker command-line environment",
+            "answer_d": "Docker Compose for running the docker-compose commands",
+            "answer_e": "A shell post-configured for a Docker command-line environment",
+            "answer_f": "Oracle RealBox Containers"
+        },
+        "multiple_correct_answers": "true",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "true",
+            "answer_c_correct": "true",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "Docker"
+            }
+        ],
+        "category": "Docker",
+        "difficulty": "Hard"
+    },
+    {
+        "id": 787,
+        "question": "How can we start a PHP session:",
+        "description": null,
+        "answers": {
+            "answer_a": "session_start()",
+            "answer_b": "start_session()",
+            "answer_c": "session()",
+            "answer_d": "startS()",
+            "answer_e": "sessionStart()",
+            "answer_f": "startSession()"
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "true",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Medium"
+    },
+    {
+        "id": 772,
+        "question": "Which of the following method acts as a destructor function in a PHP class?",
+        "description": null,
+        "answers": {
+            "answer_a": "class_name()",
+            "answer_b": "__destruct",
+            "answer_c": "destructor",
+            "answer_d": "destructor()",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": null,
+        "explanation": "Like a constructor function you can define a destructor function using function __destruct(). You can release all the resourceses with-in a destructor.",
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "Linux",
+        "difficulty": "Medium"
+    }
+]
