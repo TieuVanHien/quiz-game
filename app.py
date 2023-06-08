@@ -5,6 +5,13 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+ans = {
+    'a': 'answer_a',
+    'b': 'answer_b',
+    'c': 'answer_c',
+    'd': 'answer_d',
+    'e': 'answer_e'
+}
 
 # API endpoint
 url = "https://quizapi.io/api/v1/questions"
@@ -37,13 +44,27 @@ if response.status_code == 200:
     with open("quiz.json", "w") as file:
         file.write(json.dumps(data))
     for ques in data:
-        print(ques['question'])
-        answer = input("Your answer: ")
-        if answer == ques["correct_answer"]:
-            print("You are correct!")
-        else:
-            print("You are wrong")    
-                
+        print(ques['question'] + "\n" )
+        for key, value in ques["answers"].items():
+            print(f"{key}: {value}")
+        correct_answer = ques["correct_answer"]
+        user_input = input("Your answer: ").lower()
+        valid = False
+        try:
+             while not valid:
+                user_input = input("Your answer: ").lower()
+                if user_input in ans:
+                    answer = ans[user_input]
+                    valid = True
+                    if correct_answer is not None and answer.lower() == correct_answer.lower():
+                        print("You are correct!")
+                    else:
+                        print("You are wrong. The correct answer is:", correct_answer)    
+                else:
+                    print("Invalid answer. Please choose a, b, c, d, or e.")        
+        except KeyError:
+            print("Please enter valid answer which includes a, b, c, d and e")    
+               
 else:
     # Request was not successful
     print("Error:", response.status_code)
