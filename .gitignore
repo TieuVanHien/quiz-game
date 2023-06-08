@@ -3,3 +3,5 @@ quiz.json
 
 # ignore virtual environment folder
 venv/
+
+testapi.py
