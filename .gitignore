@@ -5,3 +5,6 @@ quiz.json
 venv/
 
 testapi.py
+
+# local env
+.env

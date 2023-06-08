@@ -1,5 +1,10 @@
 import requests
 import json
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 # API endpoint
 url = "https://quizapi.io/api/v1/questions"
@@ -11,7 +16,7 @@ dif = input("Please enter your desired difficulty: ")
 
 # API parameters
 params = {
-    "apiKey": "aPDvB6Yp4dqaASO4AKHyvyIcGrrQ0KOrPB1v9KRB",
+    "apiKey": os.getenv("QUIZ_API_KEY"),
     "tags": user_tag,
     "limit": ques_limit,
     "difficulty": dif

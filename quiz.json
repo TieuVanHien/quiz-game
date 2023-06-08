@@ -1,269 +1,13 @@
 [
     {
-        "id": 550,
-        "question": "Which sign is used to access a variable of  a variable in PHP?",
+        "id": 58,
+        "question": "What does PHP stand for?",
         "description": null,
         "answers": {
-            "answer_a": "$$",
-            "answer_b": "$|",
-            "answer_c": "#@",
-            "answer_d": "$",
-            "answer_e": null,
-            "answer_f": null
-        },
-        "multiple_correct_answers": "false",
-        "correct_answers": {
-            "answer_a_correct": "true",
-            "answer_b_correct": "false",
-            "answer_c_correct": "false",
-            "answer_d_correct": "false",
-            "answer_e_correct": "false",
-            "answer_f_correct": "false"
-        },
-        "correct_answer": "answer_a",
-        "explanation": null,
-        "tip": null,
-        "tags": [
-            {
-                "name": "PHP"
-            }
-        ],
-        "category": "Code",
-        "difficulty": "Medium"
-    },
-    {
-        "id": 588,
-        "question": "What is the difference between characters \\034 and \\x34?",
-        "description": null,
-        "answers": {
-            "answer_a": "\\034 is octal 34 and \\x34 is hex 34.",
-            "answer_b": "\\034 is hex 34 and \\x34 is octal 34.",
-            "answer_c": null,
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
-        },
-        "multiple_correct_answers": "false",
-        "correct_answers": {
-            "answer_a_correct": "true",
-            "answer_b_correct": "false",
-            "answer_c_correct": "false",
-            "answer_d_correct": "false",
-            "answer_e_correct": "false",
-            "answer_f_correct": "false"
-        },
-        "correct_answer": "answer_a",
-        "explanation": null,
-        "tip": null,
-        "tags": [
-            {
-                "name": "PHP"
-            }
-        ],
-        "category": "Code",
-        "difficulty": "Medium"
-    },
-    {
-        "id": 598,
-        "question": "How can we initiate a session in PHP?",
-        "description": null,
-        "answers": {
-            "answer_a": "$_session_start()",
-            "answer_b": "session_start()",
-            "answer_c": "$session_start()",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
-        },
-        "multiple_correct_answers": "false",
-        "correct_answers": {
-            "answer_a_correct": "false",
-            "answer_b_correct": "true",
-            "answer_c_correct": "false",
-            "answer_d_correct": "false",
-            "answer_e_correct": "false",
-            "answer_f_correct": "false"
-        },
-        "correct_answer": "answer_a",
-        "explanation": null,
-        "tip": null,
-        "tags": [
-            {
-                "name": "PHP"
-            }
-        ],
-        "category": "Code",
-        "difficulty": "Medium"
-    },
-    {
-        "id": 568,
-        "question": "Which of the following function returns a text in title case from a variable?",
-        "description": null,
-        "answers": {
-            "answer_a": "ucwords($var)",
-            "answer_b": ".ucword($var)",
-            "answer_c": "toupper($var)",
-            "answer_d": ".upper($var)",
-            "answer_e": null,
-            "answer_f": null
-        },
-        "multiple_correct_answers": "false",
-        "correct_answers": {
-            "answer_a_correct": "true",
-            "answer_b_correct": "false",
-            "answer_c_correct": "false",
-            "answer_d_correct": "false",
-            "answer_e_correct": "false",
-            "answer_f_correct": "false"
-        },
-        "correct_answer": "answer_a",
-        "explanation": null,
-        "tip": null,
-        "tags": [
-            {
-                "name": "PHP"
-            }
-        ],
-        "category": "Code",
-        "difficulty": "Medium"
-    },
-    {
-        "id": 766,
-        "question": "Which of the following method of Exception class returns formated string of trace?",
-        "description": null,
-        "answers": {
-            "answer_a": "getMessage()",
-            "answer_b": "getCode()",
-            "answer_c": "getTrace()",
-            "answer_d": "getTraceAsString()",
-            "answer_e": "getString()",
-            "answer_f": "getTraceString()"
-        },
-        "multiple_correct_answers": "false",
-        "correct_answers": {
-            "answer_a_correct": "false",
-            "answer_b_correct": "false",
-            "answer_c_correct": "false",
-            "answer_d_correct": "true",
-            "answer_e_correct": "false",
-            "answer_f_correct": "false"
-        },
-        "correct_answer": null,
-        "explanation": "getTraceAsString() method of Exception class returns formated string of trace.",
-        "tip": null,
-        "tags": [
-            {
-                "name": "PHP"
-            }
-        ],
-        "category": "Code",
-        "difficulty": "Medium"
-    },
-    {
-        "id": 769,
-        "question": "Which of the following function sorts an array in reverse order?",
-        "description": null,
-        "answers": {
-            "answer_a": "rsort()",
-            "answer_b": "sort()",
-            "answer_c": "shuffle()",
-            "answer_d": "reset()",
-            "answer_e": null,
-            "answer_f": null
-        },
-        "multiple_correct_answers": "false",
-        "correct_answers": {
-            "answer_a_correct": "true",
-            "answer_b_correct": "false",
-            "answer_c_correct": "false",
-            "answer_d_correct": "false",
-            "answer_e_correct": "false",
-            "answer_f_correct": "false"
-        },
-        "correct_answer": null,
-        "explanation": "rsort() \u2212 Sorts an array in reverse order.",
-        "tip": null,
-        "tags": [
-            {
-                "name": "PHP"
-            }
-        ],
-        "category": "Code",
-        "difficulty": "Medium"
-    },
-    {
-        "id": 573,
-        "question": "Which of the following is not true?",
-        "description": null,
-        "answers": {
-            "answer_a": "PHP can be used to develop web applications.",
-            "answer_b": "PHP can not be embedded into html.",
-            "answer_c": "PHP applications can not be compiled",
-            "answer_d": "PHP makes a website dynamic",
-            "answer_e": null,
-            "answer_f": null
-        },
-        "multiple_correct_answers": "false",
-        "correct_answers": {
-            "answer_a_correct": "false",
-            "answer_b_correct": "true",
-            "answer_c_correct": "false",
-            "answer_d_correct": "false",
-            "answer_e_correct": "false",
-            "answer_f_correct": "false"
-        },
-        "correct_answer": "answer_a",
-        "explanation": null,
-        "tip": null,
-        "tags": [
-            {
-                "name": "PHP"
-            }
-        ],
-        "category": "Code",
-        "difficulty": "Medium"
-    },
-    {
-        "id": 782,
-        "question": "What does the include() function does?",
-        "description": null,
-        "answers": {
-            "answer_a": "The include() function takes all the text in a specified file and copies it into the file that uses the include function",
-            "answer_b": "The include() function takes the included file and makes sure it's executed before the file the function is used into",
-            "answer_c": "The include() function takes specified strings and includes them into another string. This is used when we want to concatenate different strings.",
-            "answer_d": null,
-            "answer_e": null,
-            "answer_f": null
-        },
-        "multiple_correct_answers": "false",
-        "correct_answers": {
-            "answer_a_correct": "true",
-            "answer_b_correct": "false",
-            "answer_c_correct": "false",
-            "answer_d_correct": "false",
-            "answer_e_correct": "false",
-            "answer_f_correct": "false"
-        },
-        "correct_answer": null,
-        "explanation": null,
-        "tip": null,
-        "tags": [
-            {
-                "name": "PHP"
-            }
-        ],
-        "category": "Code",
-        "difficulty": "Medium"
-    },
-    {
-        "id": 634,
-        "question": "How is the comparison of objects done in PHP?",
-        "description": null,
-        "answers": {
-            "answer_a": "We use the operator '===' to test two objects are instanced from the same class and have same attributes and equal values.",
-            "answer_b": "We use the operator '=' to test two objects are instanced from the same class and have same attributes and equal values.",
-            "answer_c": "We use the operator '==' to test two objects are instanced from the same class and have same attributes and equal values.",
-            "answer_d": null,
+            "answer_a": "Personal Hypertext Processor",
+            "answer_b": "Private Home Page",
+            "answer_c": "PHP: Hypertext Preprocessor",
+            "answer_d": "Personal Home Page",
             "answer_e": null,
             "answer_f": null
         },
@@ -276,6 +20,38 @@
             "answer_e_correct": "false",
             "answer_f_correct": "false"
         },
+        "correct_answer": "answer_c",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 562,
+        "question": "What number is the first key of a PHP\u2019s numerical array?",
+        "description": null,
+        "answers": {
+            "answer_a": "-1",
+            "answer_b": "2",
+            "answer_c": "1",
+            "answer_d": "0",
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "false",
+            "answer_c_correct": "false",
+            "answer_d_correct": "true",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
         "correct_answer": "answer_a",
         "explanation": null,
         "tip": null,
@@ -285,17 +61,49 @@
             }
         ],
         "category": "Code",
-        "difficulty": "Medium"
+        "difficulty": "Easy"
     },
     {
-        "id": 104,
-        "question": "Are strstr and strchr aliases?",
+        "id": 602,
+        "question": "What is the function func_num_args() used for?",
         "description": null,
         "answers": {
-            "answer_a": "True",
-            "answer_b": "False",
-            "answer_c": null,
+            "answer_a": "The function func_num_args() is used to give the string of parameters passed into a function.",
+            "answer_b": "The function func_num_args() is used to give the number of parameters passed into a function.",
+            "answer_c": "The function func_num_args() is used to give the boolean r of parameters passed into a function.",
             "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 571,
+        "question": "PHP is an example of ___________ scripting language.",
+        "description": null,
+        "answers": {
+            "answer_a": "Server-side",
+            "answer_b": "In-side",
+            "answer_c": "Browser-side",
+            "answer_d": "Client-side",
             "answer_e": null,
             "answer_f": null
         },
@@ -316,7 +124,39 @@
                 "name": "PHP"
             }
         ],
-        "category": "",
-        "difficulty": "Medium"
+        "category": "Code",
+        "difficulty": "Easy"
+    },
+    {
+        "id": 617,
+        "question": "How can we check  if the value of a given variable is alphanumeric?",
+        "description": null,
+        "answers": {
+            "answer_a": "gtype_alnum to check whether it is an alphanumeric value or not.",
+            "answer_b": "ctype_alnum to check whether it is an alphanumeric value or not.",
+            "answer_c": "dtype_alnum to check whether it is an alphanumeric value or not.",
+            "answer_d": null,
+            "answer_e": null,
+            "answer_f": null
+        },
+        "multiple_correct_answers": "false",
+        "correct_answers": {
+            "answer_a_correct": "false",
+            "answer_b_correct": "true",
+            "answer_c_correct": "false",
+            "answer_d_correct": "false",
+            "answer_e_correct": "false",
+            "answer_f_correct": "false"
+        },
+        "correct_answer": "answer_a",
+        "explanation": null,
+        "tip": null,
+        "tags": [
+            {
+                "name": "PHP"
+            }
+        ],
+        "category": "Code",
+        "difficulty": "Easy"
     }
 ]
