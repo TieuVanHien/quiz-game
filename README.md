@@ -30,10 +30,11 @@ The project provides a script that interacts with the API, fetches quiz data bas
 
 1. Clone the repository: `git clone https://github.com/your-username/quiz-game.git`
 2. Navigate to the project directory: `cd quiz-game`
-3. Create a virtual environment: `python -m venv venv`
+3. Create a virtual environment: `python -m venv venv`. (Alternatively, you can run the `setup.bat` file as administrator, it will automatically create venv for you)
 4. Activate the virtual environment:
    - On Windows: `venv\Scripts\activate`
    - On macOS and Linux: `source venv/bin/activate`
+
 5. Install the required dependencies: `pip install -r requirements.txt`
 
 ### Usage
