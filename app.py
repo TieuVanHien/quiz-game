@@ -31,6 +31,14 @@ if response.status_code == 200:
     data = response.json()
     with open("quiz.json", "w") as file:
         file.write(json.dumps(data))
+    for ques in data:
+        print(ques['question'])
+        answer = input("Your answer: ")
+        if answer == ques["correct_answer"]:
+            print("You are correct!")
+        else:
+            print("You are wrong")    
+                
 else:
     # Request was not successful
     print("Error:", response.status_code)
