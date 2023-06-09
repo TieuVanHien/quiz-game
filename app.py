@@ -17,9 +17,27 @@ ans = {
 # API endpoint
 url = "https://quizapi.io/api/v1/questions"
 
-ques_limit = int(input("Please enter your desired numbers of question: "))
-user_tag = Tags(input("Enter your desired technologies: "))
-dif = Dif(input("Please enter your desired difficulty: "))
+def validated_input(prompt, validation_func, error_message):
+    while True:
+        try:
+            user_input = input(prompt)
+            validated_input = validation_func(user_input)
+            return validated_input
+        except ValueError:
+            print(error_message)
+
+ques_limit = validated_input("Please enter your desired numbers of question: ",
+                                 lambda x: int(x),
+                                 "Invalid input for numbers of question. Please enter a valid integer value for numbers of question.")
+
+user_tag = validated_input("Enter your desired technologies: ",
+                               lambda x: Tags(x),
+                               "Invalid input for tags. Please choose a tag from the specified categories.")
+
+dif = validated_input("Please enter your desired difficulty: ",
+                          lambda x: Dif(x),
+                          "Invalid input for difficulty. Please choose a different difficulty: Easy, Medium, or Hard.")
+
 
 # API parameters
 params = {
