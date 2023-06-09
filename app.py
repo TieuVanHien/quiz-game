@@ -3,6 +3,7 @@ import json
 import os
 from dotenv import load_dotenv
 from tags import Tags
+from difficulty import Dif
 
 load_dotenv()
 
@@ -21,7 +22,7 @@ url = "https://quizapi.io/api/v1/questions"
 
 ques_limit = int(input("Please enter your desired numbers of question: "))
 user_tag = Tags(input("Enter your desired technologies: "))
-dif = input("Please enter your desired difficulty: ")
+dif = Dif(input("Please enter your desired difficulty: "))
 
 # API parameters
 params = {
