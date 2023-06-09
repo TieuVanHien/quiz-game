@@ -2,6 +2,7 @@ import requests
 import json
 import os
 from dotenv import load_dotenv
+from tags import Tags
 
 load_dotenv()
 
@@ -13,12 +14,13 @@ ans = {
     'e': 'answer_e'
 }
 
+
+
 # API endpoint
 url = "https://quizapi.io/api/v1/questions"
 
-
 ques_limit = int(input("Please enter your desired numbers of question: "))
-user_tag = input("Enter your desired technologies: ")
+user_tag = Tags(input("Enter your desired technologies: "))
 dif = input("Please enter your desired difficulty: ")
 
 # API parameters
@@ -48,7 +50,6 @@ if response.status_code == 200:
         for key, value in ques["answers"].items():
             print(f"{key}: {value}")
         correct_answer = ques["correct_answer"]
-        user_input = input("Your answer: ").lower()
         valid = False
         try:
              while not valid:
