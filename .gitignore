@@ -4,7 +4,7 @@ quiz.json
 # ignore virtual environment folder
 venv/
 
-testapi.py
+_pycache_/
 
 # local env
 .env
