@@ -14,9 +14,6 @@ ans = {
     'd': 'answer_d',
     'e': 'answer_e'
 }
-
-
-
 # API endpoint
 url = "https://quizapi.io/api/v1/questions"
 
@@ -27,9 +24,9 @@ dif = Dif(input("Please enter your desired difficulty: "))
 # API parameters
 params = {
     "apiKey": os.getenv("QUIZ_API_KEY"),
-    "tags": user_tag,
+    "tags": user_tag.tag,
     "limit": ques_limit,
-    "difficulty": dif
+    "difficulty": dif.dif
 }
 
 # Request headers
